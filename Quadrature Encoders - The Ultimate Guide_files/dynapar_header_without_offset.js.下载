@@ -1,0 +1,75 @@
+// Set body offset on resize in case header height changes
+$(window).resize(function () {
+  var headerHeight = $(".header").outerHeight() - 1; // Offset by 1 pixel because of HS wrapper issue
+  $("body").css("margin-top", headerHeight + "px");
+});
+// Initialize Offscreen Menu
+$(document).ready(function () {
+  menuAccordions();
+});
+// Initialize Offscreen Menu
+$(document).ready(function () {
+  var anchor = document.querySelectorAll(".hamburger-toggle");
+  [].forEach.call(anchor, function (anchor) {
+    var open = false;
+    anchor.onclick = function (event) {
+      $("html").toggleClass("menu-open");
+      event.preventDefault();
+      if (!open) {
+        this.classList.add("close");
+        open = true;
+      } else {
+        this.classList.remove("close");
+        $("html").toggleClass("menu-closing");
+        setTimeout(function () {
+          $("html").toggleClass("menu-closing");
+        }, 800);
+        open = false;
+      }
+    };
+  });
+});
+// Initialize Full Screen Search Button
+$(document).ready(function () {
+  // Toggle Offscreen Search
+  $(document).ready(function () {
+    $(".header .search-toggle a").click(function () {
+      $("body").toggleClass("search-open");
+    });
+  });
+});
+// Google Search Box Placeholder Text
+$(window).load(function () {
+  $('.gsc-input input[name$="search"]').attr("placeholder", "Search...");
+});
+// //mega nav ctas
+$(".main-nav li.hs-menu-depth-1>a").mouseenter(function () {
+  var parentNode = $(this).parent(),
+    parentIndex = parentNode.index(),
+    targetDiv = $(
+      ".megadrop>div>div>div:nth-child(" + parseInt(parentIndex + 1) + ")"
+    );
+  if (targetDiv.length > 0) {
+    console.log(targetDiv);
+    $(".megadrop>div>div>div").removeClass("active");
+    targetDiv.addClass("active");
+    var menuHeight = targetDiv.height();
+    $(".megadrop").height(menuHeight);
+  } else {
+    $(".megadrop>div>div>div").removeClass("active");
+    $(".megadrop").height("0");
+  }
+});
+$(".header").mouseleave(function () {
+  $(".megadrop>div>div>div").removeClass("active");
+  $(".megadrop").height("0");
+});
+$(window).resize(function () {
+  $("li.nav-active").click();
+  $(".megadrop>div>div>div").removeClass("active");
+  $(".megadrop").height("0px");
+  $("body").removeClass("open-nav-body");
+  $(
+    ".header .main-nav .hs-menu-wrapper.hs-menu-wrapper.hs-menu-flow-horizontal li"
+  ).removeClass("nav-active");
+});

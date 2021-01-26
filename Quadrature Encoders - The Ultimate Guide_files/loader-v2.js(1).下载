@@ -1,0 +1,114 @@
+(function() {
+
+    var __hs_cta_json = {"css":"a#cta_button_291699_7aceb2f8-1043-41ea-8f63-312ef08142a0 {\n  cursor:pointer !important; \n}\na#cta_button_291699_7aceb2f8-1043-41ea-8f63-312ef08142a0:hover {\n}\na#cta_button_291699_7aceb2f8-1043-41ea-8f63-312ef08142a0:active, #cta_button_291699_7aceb2f8-1043-41ea-8f63-312ef08142a0:active:hover {\n}\n\n","css_links":["https://static.hsappstatic.net/ContentIcons/static-1.3/fontawesome/5.0.10/css/fontawesome-all.min.css"],"image_html":"<a id=\"cta_button_291699_7aceb2f8-1043-41ea-8f63-312ef08142a0\" class=\"cta_button\" href=\"https://www.dynapar.com/cs/c/?cta_guid=7aceb2f8-1043-41ea-8f63-312ef08142a0&signature=AAH58kEu0iMGTGdYK6PD7afWF0wZT66LQg&pageId=5631249513&placement_guid=4447c57c-d812-45dd-9796-a5def55e91c9&click=96cf1519-7d03-47e9-a44e-00ac3e4d5614&hsutk=8e8ad47c084130c63783959a8a96c2b3&canon=https%3A%2F%2Fwww.dynapar.com%2Ftechnology%2Fencoder_basics%2Fquadrature_encoder%2F&utm_referrer=https%3A%2F%2Fwww.google.com%2F&portal_id=291699&redirect_url=APefjpF8t4gfctbwEicXsqhmMfisXuXMB2cOc9OITz-HdpCrQbE4yYnTuSa_tMufZ9PK65etqbl4G8oi0PCW7tNLEaTLwa1WXsXiHPj0kBo23n67HUKVGEeLye6MsKjcD2GzOa1PCirgoIJbtwKJkJuo51a-5zyD57YKWenywbJD0BJxRqAIrhppett8oA8Zju-A1akScTFFSThtVkSlrItbWw8AVPsu2rw3f3ZzN6Vam14H5uHwFpyZCK6MzCJHf_wzjSecOHwWbfPJaDZMh_jlnCkJ4S6fpngojcIxcNtAlx4zftpZdG0\"  cta_dest_link=\"https://info.dynapar.com/encoder-mounting-wp-hollow-shaft-tech-cta\"><img id=\"hs-cta-img-4447c57c-d812-45dd-9796-a5def55e91c9\" class=\"hs-cta-img \" style=\"border-width: 0px; /*hs-extra-styles*/\" mce_noresize=\"1\" alt=\"Encoder Essentials White Paper  Encoder Mounting. How to Optimize the Life and Performance of Rotary Encoders Download Now\" src=\"https://cdn2.hubspot.net/hubshot/18/03/27/9da15164-c4bc-4523-80c9-4ba33f2f6ab0.png\" /></a>","is_image":false,"placement_element_class":"hs-cta-4447c57c-d812-45dd-9796-a5def55e91c9","raw_html":"<a id=\"cta_button_291699_7aceb2f8-1043-41ea-8f63-312ef08142a0\" class=\"cta_button \" href=\"https://www.dynapar.com/cs/c/?cta_guid=7aceb2f8-1043-41ea-8f63-312ef08142a0&signature=AAH58kEu0iMGTGdYK6PD7afWF0wZT66LQg&pageId=5631249513&placement_guid=4447c57c-d812-45dd-9796-a5def55e91c9&click=96cf1519-7d03-47e9-a44e-00ac3e4d5614&hsutk=8e8ad47c084130c63783959a8a96c2b3&canon=https%3A%2F%2Fwww.dynapar.com%2Ftechnology%2Fencoder_basics%2Fquadrature_encoder%2F&utm_referrer=https%3A%2F%2Fwww.google.com%2F&portal_id=291699&redirect_url=APefjpF8t4gfctbwEicXsqhmMfisXuXMB2cOc9OITz-HdpCrQbE4yYnTuSa_tMufZ9PK65etqbl4G8oi0PCW7tNLEaTLwa1WXsXiHPj0kBo23n67HUKVGEeLye6MsKjcD2GzOa1PCirgoIJbtwKJkJuo51a-5zyD57YKWenywbJD0BJxRqAIrhppett8oA8Zju-A1akScTFFSThtVkSlrItbWw8AVPsu2rw3f3ZzN6Vam14H5uHwFpyZCK6MzCJHf_wzjSecOHwWbfPJaDZMh_jlnCkJ4S6fpngojcIxcNtAlx4zftpZdG0\"  style=\"/*hs-extra-styles*/\" cta_dest_link=\"https://info.dynapar.com/encoder-mounting-wp-hollow-shaft-tech-cta\" title=\"Encoder Essentials White Paper  Encoder Mounting. How to Optimize the Life and Performance of Rotary Encoders Download Now\"><div class=\"mid-content-cta\">\n<div>\n<h4>Encoder Essentials White Paper</h4>\n<p>Encoder Mounting. How to Optimize the Life and Performance of Rotary Encoders</p>\n<button>Download Now<span class=\"fa fa-long-arrow-right\"></span></button></div>\n<div><img src=\"https://cdn2.hubspot.net/hubfs/291699/white_papers/encoder-mounting-241239-edited.png\" /></div>\n</div></a>"};
+    var __hs_cta = {};
+
+    __hs_cta.drop = function() {
+        var is_legacy = document.getElementById('hs-cta-ie-element') && true || false,
+            html = __hs_cta_json.image_html,
+            tags = __hs_cta.getTags(),
+            is_image = __hs_cta_json.is_image,
+            parent, _style;
+
+        if (!is_legacy && !is_image) {
+            parent = (document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]);
+
+            _style = document.createElement('style');
+            parent.insertBefore(_style, parent.childNodes[0]);
+            try {
+                default_css = ".hs-cta-wrapper p, .hs-cta-wrapper div { margin: 0; padding: 0; }";
+                cta_css = default_css + " " + __hs_cta_json.css;
+                // http://blog.coderlab.us/2005/09/22/using-the-innertext-property-with-firefox/
+                _style[document.all ? 'innerText' : 'textContent'] = cta_css;
+            } catch (e) {
+                // addressing an ie9 issue
+                _style.styleSheet.cssText = cta_css;
+            }
+            
+
+            var _link, j,
+                css_links = __hs_cta_json.css_links;
+
+            for (j = 0; j < css_links.length; j++) {
+                _link = document.createElement('link');
+                _link.rel = 'stylesheet';
+                _link.type = 'text/css';
+                _link.href = css_links[j];
+                parent.insertBefore(_link, parent.childNodes[0]);
+            }
+
+            
+            html = __hs_cta_json.raw_html;
+
+        }
+         
+
+        for (var i = 0; i < tags.length; ++i) {
+
+            var tag = tags[i];
+            var images = tag.getElementsByTagName('img');
+            var cssText = "";
+            var align = "";
+            for (var j = 0; j < images.length; j++) {
+                align = images[j].align;
+                images[j].style.border = '';
+                images[j].style.display = '';
+                cssText = images[j].style.cssText;
+            }
+
+            if (align == "right") {
+                tag.style.display = "block";
+                tag.style.textAlign = "right";
+            } else if (align == "middle") {
+                tag.style.display = "block";
+                tag.style.textAlign = "center";
+            }
+
+            tag.innerHTML = html.replace('/*hs-extra-styles*/', cssText);
+            tag.style.visibility = 'visible';
+            tag.setAttribute('data-hs-drop', 'true');
+            window.hbspt && hbspt.cta && hbspt.cta.afterLoad && hbspt.cta.afterLoad('4447c57c-d812-45dd-9796-a5def55e91c9');
+        }
+
+        return tags;
+    };
+
+    __hs_cta.getTags = function() {
+        var allTags, check, i, divTags, spanTags,
+            tags = [];
+            if (document.getElementsByClassName) {
+                allTags = document.getElementsByClassName(__hs_cta_json.placement_element_class);
+                check = function(ele) {
+                    return (ele.nodeName == 'DIV' || ele.nodeName == 'SPAN') && (!ele.getAttribute('data-hs-drop'));
+                };
+            } else {
+                allTags = [];
+                divTags = document.getElementsByTagName("div");
+                spanTags = document.getElementsByTagName("span");
+                for (i = 0; i < spanTags.length; i++) {
+                    allTags.push(spanTags[i]);
+                }
+                for (i = 0; i < divTags.length; i++) {
+                    allTags.push(divTags[i]);
+                }
+
+                check = function(ele) {
+                    return (ele.className.indexOf(__hs_cta_json.placement_element_class) > -1) && (!ele.getAttribute('data-hs-drop'));
+                };
+            }
+            for (i = 0; i < allTags.length; ++i) {
+                if (check(allTags[i])) {
+                    tags.push(allTags[i]);
+                }
+            }
+        return tags;
+    };
+
+    // need to do a slight timeout so IE has time to react
+    setTimeout(__hs_cta.drop, 10);
+    
+    window._hsq = window._hsq || [];
+    window._hsq.push(['trackCtaView', '4447c57c-d812-45dd-9796-a5def55e91c9', '7aceb2f8-1043-41ea-8f63-312ef08142a0']);
+    
+
+}());

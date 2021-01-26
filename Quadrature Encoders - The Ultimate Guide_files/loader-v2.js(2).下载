@@ -1,0 +1,114 @@
+(function() {
+
+    var __hs_cta_json = {"css":"a#cta_button_291699_7101b69c-d48c-4426-983c-2ea97c5e0cfb {\n  cursor:pointer !important; \n}\na#cta_button_291699_7101b69c-d48c-4426-983c-2ea97c5e0cfb:hover {\n}\na#cta_button_291699_7101b69c-d48c-4426-983c-2ea97c5e0cfb:active, #cta_button_291699_7101b69c-d48c-4426-983c-2ea97c5e0cfb:active:hover {\n}\n\n","css_links":["https://static.hsappstatic.net/ContentIcons/static-1.3/fontawesome/5.0.10/css/fontawesome-all.min.css"],"image_html":"<a id=\"cta_button_291699_7101b69c-d48c-4426-983c-2ea97c5e0cfb\" class=\"cta_button\" href=\"https://www.dynapar.com/cs/c/?cta_guid=7101b69c-d48c-4426-983c-2ea97c5e0cfb&signature=AAH58kGcZNUC4K3LQqRfJ6f1K4DeFNCsbw&pageId=5631249513&placement_guid=72ba8a1e-6b95-4900-87e6-d594934706b7&click=b668b8be-a2ae-4eba-b455-3f9092030cc0&hsutk=8e8ad47c084130c63783959a8a96c2b3&canon=https%3A%2F%2Fwww.dynapar.com%2Ftechnology%2Fencoder_basics%2Fquadrature_encoder%2F&utm_referrer=https%3A%2F%2Fwww.google.com%2F&portal_id=291699&redirect_url=APefjpFRCUfYkzdrRhOfrYM0Rlr1P5bQ1m7nHpPHN1lRYUV7R1KpglNCtAeeH52QcS_HvJNMIxvccB9D8IVYVUlIZG1PuAr0UgnCU9aHZG6c-43IePXIky7QI1o8iLR_Al7H0u5lFerr2dRNFSy4VFuecCxIujTSXRH9NliGyio2q8SE4MtfzcaVJbSxiMUryDyJiSZ0QiYngJiWATW42GqKAU7GWT2N64IiSsQ22HGK89suOBxkLUPS0f3IdpJz8Bp41j-5InRV_GES1sQtY-KBqNDmRMy2MI6EldKQ3STtxJ8BhvjsqY0\"  cta_dest_link=\"https://info.dynapar.com/contact_us/oem_design_request\"><img id=\"hs-cta-img-72ba8a1e-6b95-4900-87e6-d594934706b7\" class=\"hs-cta-img \" style=\"border-width: 0px; /*hs-extra-styles*/\" mce_noresize=\"1\" alt=\"Looking for a custom solution?  Tell us your requirements and our applicaiton engineers will help find the  right solution today. Contact Us\" src=\"https://cdn2.hubspot.net/hubshot/18/03/27/efedb12d-58bb-495c-974a-25e2f0136910.png\" /></a>","is_image":false,"placement_element_class":"hs-cta-72ba8a1e-6b95-4900-87e6-d594934706b7","raw_html":"<a id=\"cta_button_291699_7101b69c-d48c-4426-983c-2ea97c5e0cfb\" class=\"cta_button \" href=\"https://www.dynapar.com/cs/c/?cta_guid=7101b69c-d48c-4426-983c-2ea97c5e0cfb&signature=AAH58kGcZNUC4K3LQqRfJ6f1K4DeFNCsbw&pageId=5631249513&placement_guid=72ba8a1e-6b95-4900-87e6-d594934706b7&click=b668b8be-a2ae-4eba-b455-3f9092030cc0&hsutk=8e8ad47c084130c63783959a8a96c2b3&canon=https%3A%2F%2Fwww.dynapar.com%2Ftechnology%2Fencoder_basics%2Fquadrature_encoder%2F&utm_referrer=https%3A%2F%2Fwww.google.com%2F&portal_id=291699&redirect_url=APefjpFRCUfYkzdrRhOfrYM0Rlr1P5bQ1m7nHpPHN1lRYUV7R1KpglNCtAeeH52QcS_HvJNMIxvccB9D8IVYVUlIZG1PuAr0UgnCU9aHZG6c-43IePXIky7QI1o8iLR_Al7H0u5lFerr2dRNFSy4VFuecCxIujTSXRH9NliGyio2q8SE4MtfzcaVJbSxiMUryDyJiSZ0QiYngJiWATW42GqKAU7GWT2N64IiSsQ22HGK89suOBxkLUPS0f3IdpJz8Bp41j-5InRV_GES1sQtY-KBqNDmRMy2MI6EldKQ3STtxJ8BhvjsqY0\"  style=\"/*hs-extra-styles*/\" cta_dest_link=\"https://info.dynapar.com/contact_us/oem_design_request\" title=\"Looking for a custom solution?  Tell us your requirements and our applicaiton engineers will help find the  right solution today. Contact Us\"><h2>Looking for a custom solution?</h2>\n<p>Tell us your requirements and our applicaiton engineers will help find the right solution today.</p>\n<button>Contact Us <span class=\"fa fa-long-arrow-right\"></span></button></a>"};
+    var __hs_cta = {};
+
+    __hs_cta.drop = function() {
+        var is_legacy = document.getElementById('hs-cta-ie-element') && true || false,
+            html = __hs_cta_json.image_html,
+            tags = __hs_cta.getTags(),
+            is_image = __hs_cta_json.is_image,
+            parent, _style;
+
+        if (!is_legacy && !is_image) {
+            parent = (document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]);
+
+            _style = document.createElement('style');
+            parent.insertBefore(_style, parent.childNodes[0]);
+            try {
+                default_css = ".hs-cta-wrapper p, .hs-cta-wrapper div { margin: 0; padding: 0; }";
+                cta_css = default_css + " " + __hs_cta_json.css;
+                // http://blog.coderlab.us/2005/09/22/using-the-innertext-property-with-firefox/
+                _style[document.all ? 'innerText' : 'textContent'] = cta_css;
+            } catch (e) {
+                // addressing an ie9 issue
+                _style.styleSheet.cssText = cta_css;
+            }
+            
+
+            var _link, j,
+                css_links = __hs_cta_json.css_links;
+
+            for (j = 0; j < css_links.length; j++) {
+                _link = document.createElement('link');
+                _link.rel = 'stylesheet';
+                _link.type = 'text/css';
+                _link.href = css_links[j];
+                parent.insertBefore(_link, parent.childNodes[0]);
+            }
+
+            
+            html = __hs_cta_json.raw_html;
+
+        }
+         
+
+        for (var i = 0; i < tags.length; ++i) {
+
+            var tag = tags[i];
+            var images = tag.getElementsByTagName('img');
+            var cssText = "";
+            var align = "";
+            for (var j = 0; j < images.length; j++) {
+                align = images[j].align;
+                images[j].style.border = '';
+                images[j].style.display = '';
+                cssText = images[j].style.cssText;
+            }
+
+            if (align == "right") {
+                tag.style.display = "block";
+                tag.style.textAlign = "right";
+            } else if (align == "middle") {
+                tag.style.display = "block";
+                tag.style.textAlign = "center";
+            }
+
+            tag.innerHTML = html.replace('/*hs-extra-styles*/', cssText);
+            tag.style.visibility = 'visible';
+            tag.setAttribute('data-hs-drop', 'true');
+            window.hbspt && hbspt.cta && hbspt.cta.afterLoad && hbspt.cta.afterLoad('72ba8a1e-6b95-4900-87e6-d594934706b7');
+        }
+
+        return tags;
+    };
+
+    __hs_cta.getTags = function() {
+        var allTags, check, i, divTags, spanTags,
+            tags = [];
+            if (document.getElementsByClassName) {
+                allTags = document.getElementsByClassName(__hs_cta_json.placement_element_class);
+                check = function(ele) {
+                    return (ele.nodeName == 'DIV' || ele.nodeName == 'SPAN') && (!ele.getAttribute('data-hs-drop'));
+                };
+            } else {
+                allTags = [];
+                divTags = document.getElementsByTagName("div");
+                spanTags = document.getElementsByTagName("span");
+                for (i = 0; i < spanTags.length; i++) {
+                    allTags.push(spanTags[i]);
+                }
+                for (i = 0; i < divTags.length; i++) {
+                    allTags.push(divTags[i]);
+                }
+
+                check = function(ele) {
+                    return (ele.className.indexOf(__hs_cta_json.placement_element_class) > -1) && (!ele.getAttribute('data-hs-drop'));
+                };
+            }
+            for (i = 0; i < allTags.length; ++i) {
+                if (check(allTags[i])) {
+                    tags.push(allTags[i]);
+                }
+            }
+        return tags;
+    };
+
+    // need to do a slight timeout so IE has time to react
+    setTimeout(__hs_cta.drop, 10);
+    
+    window._hsq = window._hsq || [];
+    window._hsq.push(['trackCtaView', '72ba8a1e-6b95-4900-87e6-d594934706b7', '7101b69c-d48c-4426-983c-2ea97c5e0cfb']);
+    
+
+}());
